@@ -1,4 +1,4 @@
-# aaron
+# DDVerse
 
 > A platform for managing DD sessions
 
