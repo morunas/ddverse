@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/store/modules/campaign/getters.js",
+			"settings":
+			{
+				"buffer_size": 329,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 101.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Install Package Control"
+			]
+		],
+		"width": 477.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/morunix/aaron",
+		"/home/morunix/aaron/build",
+		"/home/morunix/aaron/src",
+		"/home/morunix/aaron/src/store",
+		"/home/morunix/aaron/static"
+	],
+	"file_history":
+	[
+		"/home/morunix/aaron/src/components/campaign/dashboard/Dashboard.vue",
+		"/home/morunix/aaron/src/store/modules/character/getters.js",
+		"/home/morunix/aaron/src/store/modules/character/state.js",
+		"/home/morunix/aaron/src/components/campaign/dashboard/Abilities.vue",
+		"/home/morunix/aaron/src/components/campaign/dashboard/Meta.vue",
+		"/home/morunix/aaron/src/components/campaign/banner/Companion.vue",
+		"/home/morunix/aaron/src/App.vue",
+		"/home/morunix/aaron/src/components/campaign/banner/Banner.vue",
+		"/home/morunix/aaron/src/store/modules/campaign/state.js",
+		"/home/morunix/aaron/src/router/index.js",
+		"/home/morunix/aaron/src/components/campaign/Campaign.vue",
+		"/home/morunix/aaron/src/components/Campaign.vue",
+		"/home/morunix/aaron/src/components/party/Companions.vue",
+		"/home/morunix/aaron/src/components/party/Companion.vue",
+		"/home/morunix/aaron/src/components/campaign/Banner.vue",
+		"/home/morunix/aaron/src/components/campaign/Dashboard.vue",
+		"/home/morunix/aaron/src/store/modules/campaign/getters.js",
+		"/home/morunix/aaron/src/components/party/List.vue",
+		"/home/morunix/aaron/src/components/party/Avatar.vue",
+		"/home/morunix/aaron/src/components/Home.vue",
+		"/home/morunix/aaron/src/components/auth/Login.vue",
+		"/home/morunix/aaron/src/store/modules/component/state.js",
+		"/home/morunix/aaron/src/store/modules/component/getters.js",
+		"/home/morunix/aaron/src/store/modules/campaign/players/state.js",
+		"/home/morunix/aaron/src/store/modules/campaign/players/mutations.js",
+		"/home/morunix/aaron/src/store/index.js",
+		"/home/morunix/aaron/src/store/modules/campaign/players/actions.js",
+		"/home/morunix/aaron/src/store/modules/campaign/players/getters.js",
+		"/home/morunix/aaron/src/components/character/Abilities.vue",
+		"/home/morunix/aaron/src/components/Dashboard.vue",
+		"/home/morunix/aaron/src/components/character/Avatar.vue",
+		"/home/morunix/aaron/src/utils/auth/index.js",
+		"/home/morunix/aaron/src/components/character/Party.vue",
+		"/home/morunix/aaron/src/components/character/Character.vue",
+		"/home/morunix/aaron/src/main.js",
+		"/home/morunix/aaron/server/routes.js",
+		"/home/morunix/aaron/server/config/express.js",
+		"/home/morunix/aaron/src/components/dashboards/Dashboard.vue",
+		"/home/morunix/aaron/src/components/PlayerSession.vue",
+		"/home/morunix/aaron/server/app.js",
+		"/home/morunix/aaron/build/webpack.base.conf.js",
+		"/home/morunix/aaron/package.json",
+		"/home/morunix/aaron/test/unit/specs/HelloWorld.spec.js",
+		"/home/morunix/aaron/config/index.js",
+		"/home/morunix/aaron/src/components/auth/Signup.vue",
+		"/home/morunix/aaron/src/components/auth/auth.js",
+		"/home/morunix/aaron/src/utils/esrgth",
+		"/home/morunix/aaron/src/store/modules/weapon/mutations.js",
+		"/home/morunix/aaron/src/store/modules/weapon/getters.js",
+		"/home/morunix/aaron/src/store/modules/weapon/state.js",
+		"/home/morunix/aaron/src/store/modules/character/actions.js",
+		"/home/morunix/aaron/src/store/modules/component/actions.js",
+		"/home/morunix/aaron/src/store/modules/weapon/actions.js",
+		"/home/morunix/aaron/src/store/modules/weapon/character.js",
+		"/home/morunix/aaron/src/store/modules/character/character.js",
+		"/home/morunix/aaron/src/store/modules/character/mutations.js",
+		"/home/morunix/aaron/build/utils.js",
+		"/home/morunix/aaron/build/vue-loader.conf.js",
+		"/home/morunix/aaron/build/webpack.dev.conf.js",
+		"/home/morunix/aaron/build/webpack.prod.conf.js",
+		"/home/morunix/aaron/build/build.js",
+		"/home/morunix/aaron/server/components/errors/index.js",
+		"/home/morunix/aaron/server/config/socketio.js",
+		"/home/morunix/aaron/node_modules/istanbul/node_modules/async/README.md",
+		"/home/morunix/aaron/src/server/app.js",
+		"/home/morunix/aaron/src/components/DMSession.vue",
+		"/home/morunix/aaron-backend/package.json",
+		"/home/morunix/aaron/src/components/Session.vue",
+		"/home/morunix/aaron/store/modules/component.js",
+		"/home/morunix/aaron/store/modules/character.js",
+		"/home/morunix/aaron/store/mutations.js",
+		"/home/morunix/aaron/store/index.js",
+		"/home/morunix/aaron/store/actions.js",
+		"/home/morunix/aaron/aaron.sublime-project"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 89.0,
+		"where_history":
+		[
+			"/home/morunix/aaron",
+			"/home/morunix/aaron/build"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"abilities",
+			"characters",
+			"3",
+			"2",
+			"widget",
+			"characterslist",
+			"avatar",
+			"characters",
+			"character",
+			"@",
+			"http",
+			"parentGetters",
+			"parentMutations",
+			"parent",
+			"parentActions",
+			"parentMutations",
+			"build",
+			"config.build",
+			"config.dev",
+			"Config.dev",
+			"config.dev",
+			"config.build",
+			"assetsPublicPath",
+			"build",
+			"productionSourceMap",
+			"NODE_ENV",
+			"routes",
+			"backendBase",
+			"secrets",
+			"dev",
+			"dev:",
+			"dev",
+			"src",
+			"module",
+			"module.exports",
+			"express",
+			"main.js",
+			"license",
+			"name",
+			"lint",
+			"aaron"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/store/modules/campaign/getters.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "aaron.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"characterstate",
+				"src/store/modules/character/state.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
