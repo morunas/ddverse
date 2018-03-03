@@ -1,13 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+    <slot name="header"></slot>
+    <slot name="body"></slot>
+    <slot name="footer"></slot>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+export default { name: 'Base' }
 </script>
 
 <style>
@@ -24,46 +24,45 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 html {
-	background-image: url('./assets/dungeon-floor-background.png');
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 body {
-	line-height: 1;
-	min-height: 100vh;
-	background-color: rgba(255,255,255,.75);
+  line-height: 1;
+  min-height: 100vh;
+  background-color: rgba(255,255,255,.75);
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 div, span, p {
   box-sizing: border-box;
 }
-#app {
+#page {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -71,20 +70,20 @@ div, span, p {
   color: #2c3e50;
 }
 .container {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
-	position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
 }
 .container.padded {
-	padding: 20px;
+  padding: 20px;
 }
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
 }
 th, td {
-	padding: 10px 8px 10px 0;
-	text-align: left;
+  padding: 10px 8px 10px 0;
+  text-align: left;
 }
 </style>

@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '../components/Home'
-import Campaign from '../components/campaign/Campaign'
+import Home from './Home'
 
 Vue.use(Router)
 
@@ -11,11 +10,7 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
-    },
-    {
-      path: '/dashboard',
-      name: 'Campaign',
-      component: Campaign
     }
-  ]
+  ],
+  mode: 'history'
 })

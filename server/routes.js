@@ -17,16 +17,5 @@ module.exports = function (app) {
     res.send('player');
     res.end();
   });
-
-  // All undefined asset or api routes should return a 404
-  // app.route('/:url(api|auth|static)/*').get(errors[404])
-
-  // All other routes should redirect to the index.html
-  /*
-  if (config.serverFrontend) {
-    app.route('/*').get(function (req, res) {
-      res.sendFile(path.join(config.frontend, '/index.html'))
-    })
-  }
-  */
+  
 }

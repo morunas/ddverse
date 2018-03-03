@@ -6,7 +6,6 @@ const packageConfig = require('../package.json')
 
 exports.assetsPath = function (_path) {
   const assetsSubDirectory = config.frontend.assetsSubDirectory
-
   return path.posix.join(assetsSubDirectory, _path)
 }
 
@@ -16,6 +15,7 @@ exports.cssLoaders = function (options) {
   const cssLoader = {
     loader: 'css-loader',
     options: {
+      minimize: process.env.NODE_ENV === 'production',
       sourceMap: options.sourceMap
     }
   }
@@ -68,7 +68,6 @@ exports.cssLoaders = function (options) {
 exports.styleLoaders = function (options) {
   const output = []
   const loaders = exports.cssLoaders(options)
-
   for (const extension in loaders) {
     const loader = loaders[extension]
     output.push({
@@ -76,7 +75,6 @@ exports.styleLoaders = function (options) {
       use: loader
     })
   }
-
   return output
 }
 
@@ -93,7 +91,7 @@ exports.createNotifierCallback = () => {
       title: packageConfig.name,
       message: severity + ': ' + error.name,
       subtitle: filename || '',
-      icon: path.join(__dirname, 'logo.png')
+      icon: path.join(__dirname, '../static/aaron_icon.png')
     })
   }
 }

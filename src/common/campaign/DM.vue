@@ -1,5 +1,5 @@
 <template>
-  <div id="campaign">
+  <div id="dm">
     <banner></banner>
     <dashboard></dashboard>
   </div>
@@ -7,7 +7,7 @@
 
 <script>
 import banner from './banner/Banner';
-import dashboard from './dashboard/Dashboard';
+import dashboard from './dm-dashboard/Dashboard';
 export default {
   name: 'Campaign',
   components: { banner, dashboard }

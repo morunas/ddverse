@@ -2,22 +2,18 @@
   <div id="dashboard">
   	<div class="container">
       <div class="box">
-  		  <charactermeta></charactermeta>
-  		  <abilities></abilities>
+  		  
       </div>
   	</div>
   </div>
 </template>
 
 <script>
-import abilities from './Abilities';
-import charactermeta from './Meta';
 export default {
   name: 'Dashboard',
   data () {
     return {}
-  },
-  components: { abilities, charactermeta }
+  }
 }
 </script>
 
@@ -30,8 +26,8 @@ export default {
     
   }
   .widget {
-  	margin: 10px;
-  	padding: 20px;
+    margin: 10px;
+    padding: 20px;
     background: white;
     box-shadow: 3px 3px 3px -3px rgba(0,0,0,.5);
     display: inline-block;
@@ -39,6 +35,6 @@ export default {
   }
 
   .widget.short {
-  	width: 200px;
+    width: 200px;
   }
 </style>

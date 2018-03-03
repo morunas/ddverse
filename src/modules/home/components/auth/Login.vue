@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import auth from '../../utils/auth'
+import auth from '@/utils/auth'
 export default {
   name: 'Login',
   data() {

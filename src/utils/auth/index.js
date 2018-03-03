@@ -1,5 +1,3 @@
-import router from '../../router'
-
 // URL and endpoint constants
 const API_URL = 'http://localhost:8080/api'
 const LOGIN_URL = API_URL + '/sessions/create'
@@ -21,7 +19,7 @@ export default {
         localStorage.setItem('access_token', data.access_token)
         this.user.authenticated = true
         if(redirect) {
-          router.replace(redirect)
+          window.location.href = '/dashboard'
         }
       }, error => {
         context.error = error
@@ -36,7 +34,7 @@ export default {
       this.user.authenticated = true
 
       if(redirect) {
-        router.replace(redirect)        
+        window.location.href = '/dashboard'
       }
 
     }).error((err) => {

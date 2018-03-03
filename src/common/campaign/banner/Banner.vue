@@ -13,7 +13,7 @@
 
 <script>
 import party from './Party';
-import background from '../../../assets/banner-background.png';
+import background from '@/assets/banner-background.png';
 export default {
   name: 'Banner',
   data () {
