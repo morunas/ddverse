@@ -24,10 +24,8 @@ export default {
     background: white;
     border: 6px solid white;
     box-shadow: 2px 2px 2px -2px rgba(0,0,0,.8);
-    position: relative;
     width: 200px;
     height: 200px;
-    margin-bottom: -50px;
     z-index: 3;
   }
   h2 {
@@ -38,7 +36,7 @@ export default {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 15px;
+    padding: 6px 8px;
     text-align: left;
   }
 </style>

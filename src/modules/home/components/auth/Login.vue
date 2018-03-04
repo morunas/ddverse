@@ -1,6 +1,5 @@
 <template>
   <div id="login">
-    <h2>Log In</h2>
     <div v-if="error">
       <p>{{ error }}</p>
     </div>
@@ -45,6 +44,8 @@ export default {
 
 <style scoped>
   #login {
+    display: inline-block;
+    text-align: left; 
     padding: 40px 20px;
   }
   h2, input, button { margin: 5px }

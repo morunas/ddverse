@@ -1,30 +1,33 @@
 <template>
   <page>
-    <div id="header"
-         slot="header"
+    <div id="header" slot="header"
          v-bind:style="{ backgroundImage: `url('${background}')` }">
       <div class="container">
         <div class="logo-section">
-          <img class="logo" :src="logo"/>
+          <img class="logo" :src="logo">
           <h1>{{ title }}</h1>
         </div>
+
         <slot name="header"></slot>
+
       </div>
     </div>
     <div id="body"
          slot="body">
       <div class="container">
+
         <slot name="body"></slot>
+        
       </div>
     </div>
   </page>
 </template>
 
 <script>
-import background from '@/assets/banner-background.png';
+import background from '@/assets/banner-background.png'
 import page from './Base'
 export default {
-  name: 'Layout-1',
+  name: 'Dashboard',
   data () {
     return {
       background,
@@ -37,9 +40,12 @@ export default {
 </script>
 
 <style scoped>
+#header, #body {
+  position: relative;
+}
 #header {
   height: 260px;
-  position: relative;
+  padding-left: 300px;
 }
 #header::after {
   content: " ";
@@ -72,5 +78,11 @@ export default {
   font-size: 40px;
   display: inline-block;
   vertical-align: middle;
+}
+</style>
+
+<style>
+html {
+  background: url('~@/assets/dungeon-floor-background.png');
 }
 </style>

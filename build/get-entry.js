@@ -34,7 +34,8 @@ function getHtmlPlugin(entries, isPack) {
       template: resolve('template.html'),
       inject: false,
       appMountIds: ['app'],
-      chunksSortMode: 'dependency'
+      chunksSortMode: 'dependency',
+      favicon: 'src/assets/aaron_icon.png'
     }
 
     if (filepath in entries) {

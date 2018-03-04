@@ -5,7 +5,9 @@
   <title><%= htmlWebpackPlugin.options.title || 'Vue App'%></title>
 
   <% if (htmlWebpackPlugin.files.favicon) { %>
-  <link rel="shortcut icon" href="<%= htmlWebpackPlugin.files.favicon%>">
+  <link rel="shortcut icon" type="image/png" href="<%= htmlWebpackPlugin.files.favicon%>">
+  <link rel="shortcut icon" sizes="196x196" href="<%= htmlWebpackPlugin.files.favicon%>">
+  <link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.files.favicon%>">
   <% } %>
   <% if (htmlWebpackPlugin.options.mobile) { %>
   <meta name="viewport" content="width=device-width, initial-scale=1">

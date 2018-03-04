@@ -1,6 +1,5 @@
 <template>
   <div id="party">
-    <avatar></avatar>
     <companions></companions>
   </div>
 </template>
@@ -17,6 +16,7 @@ export default {
 <style scoped>
   #party {
     font-size: 0;
+    padding-left: 200px;
   }
   #party > div {
     display: inline-block;    

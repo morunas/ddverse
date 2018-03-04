@@ -3,17 +3,23 @@ import componentState from '../component/state'
 import avatar from '../../../assets/aaron_icon.png';
 export default _.extend(componentState(),{
   avatar,
-  str: 10,
-  dex: 10,
-  con: 10,
-  int: 10,
-  wis: 10,
-  cha: 10,
-  hp: 10,
-  ac: 10,
+  hp: 27,
+  ac: 14,
   init: 0,
   speed: 30,
-  abilities: [],
+  abilities: {
+    strength: 11,
+    dexterity: 13,
+    constitution: 13,
+    inteligence: 8,
+    wisdom: 15,
+    charisma: 10
+  },
+  proficiencies: {
+    dexterity: true,
+    sealth: true,
+    survival: true
+  },
   feats: [],
   spells: {
     known: [],

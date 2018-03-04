@@ -71,9 +71,6 @@ div, span, p {
 }
 .container {
   display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
   position: relative;
 }
 .container.padded {
@@ -83,7 +80,7 @@ table {
   border-collapse: collapse;
 }
 th, td {
-  padding: 10px 8px 10px 0;
+  padding: 5px 0 5px 0;
   text-align: left;
 }
 </style>
