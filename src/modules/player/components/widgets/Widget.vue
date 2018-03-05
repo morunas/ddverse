@@ -1,6 +1,8 @@
 <template>
   <div class="widget">
-    <slot name="content"></slot>
+    <div class="content">
+      <slot name="content"></slot>
+    </div>
   </div>
 </template>
 
@@ -17,8 +19,21 @@ export default {
 
 <style scoped>
 .widget {
-  min-height: 120px;
-  padding: 6px 10px;
+  min-height: 20px;
+  padding: 0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.widget + .widget {
+  margin-top: 10px;
+}
+.widget.box .content {
+  padding: 6px 12px;  
+}
+.widget.white {
   background: #fafafa;
+}
+.widget.bordered {
+  border: 2px solid white;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <widget id="inventory">
+  <widget id="inventory" class="white box">
     
   </widget>
 </template>

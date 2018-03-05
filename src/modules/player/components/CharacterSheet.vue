@@ -1,15 +1,16 @@
 <template>
   <div id="character-sheet">
-    <avatar></avatar>
-    <div class="column short">
-      <abilitiesWidget></abilitiesWidget>
-      <skillsWidget></skillsWidget>
-      <inventoryWidget></inventoryWidget>
-    </div>
-    <div class="column">
+    <div class="column ">
+      <statsWidget></statsWidget>
       <equipmentWidget></equipmentWidget>
       <actionsWidget></actionsWidget>
       <spellsWidget></spellsWidget>
+    </div>
+    <div class="column short">
+      <avatarWidget></avatarWidget>
+      <abilitiesWidget></abilitiesWidget>
+      <skillsWidget></skillsWidget>
+      <inventoryWidget></inventoryWidget>
     </div>
   </div>
 </template>
@@ -18,10 +19,11 @@
 import abilitiesWidget from './widgets/Abilities'
 import skillsWidget from './widgets/Skills'
 import inventoryWidget from './widgets/Inventory'
+import statsWidget from './widgets/Stats'
 import equipmentWidget from './widgets/Equipment'
 import actionsWidget from './widgets/Actions'
 import spellsWidget from './widgets/Spells'
-import avatar from './Avatar'
+import avatarWidget from './widgets/Avatar'
 export default {
   name: 'character-sheet',
   data () {
@@ -30,44 +32,38 @@ export default {
     }
   },
   components: {
+    statsWidget,
     abilitiesWidget,
     skillsWidget,
     inventoryWidget,
     equipmentWidget,
     actionsWidget,
     spellsWidget,
-    avatar
+    avatarWidget
   }
 }
 </script>
 
 <style scoped>
 #character-sheet {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   min-height: 80vh;
-  padding: 60px 5px 0px 5px;
   background-color: rgb(48, 49, 70);
   width: 530px;
   box-shadow: 1px -1px 6px -1px rgba(0,0,0,.6);
   font-size: 0;
-  text-align: right;
 }
-#character-sheet .widget {
-  margin-bottom: 10px;
+#character-sheet, .column {
+  padding: 5px;
 }
 .column {
   width: calc(100% - 210px);
-  float: right;
-  padding: 0 5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
 }
 .column.short {
   width: 210px;
-}
-.avatar {
-  position: absolute;
-  right: 10px;
-  top: calc(50px - 200px);
+  top: -170px;
 }
 </style>

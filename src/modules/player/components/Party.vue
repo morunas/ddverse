@@ -5,11 +5,10 @@
 </template>
 
 <script>
-import avatar from './Avatar';
 import companions from './Companions';
 export default {
   name: 'Party',
-  components: { avatar, companions }
+  components: { companions }
 }
 </script>
 

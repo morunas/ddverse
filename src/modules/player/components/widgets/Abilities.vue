@@ -1,5 +1,5 @@
 <template>
-  <widget id="abilities">
+  <widget id="abilities" class="white box">
     <div slot="content">
       <table>
         <thead>

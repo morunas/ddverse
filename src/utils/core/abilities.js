@@ -1,19 +1,17 @@
-const STR = 'strength';
-const DEX = 'dexterity';
-const CON = 'constitution';
-const INT = 'inteligence';
-const WIS = 'wisdom';
-const CHA = 'charisma';
+const STRENGTH = 'strength';
+const DEXTERITY = 'dexterity';
+const CONSTITUTION = 'constitution';
+const INTELIGENCE = 'inteligence';
+const WISDOM = 'wisdom';
+const CHARISMA = 'charisma';
 
-const ids = { STR, DEX, CON, INT, WIS, CHA }
-
-const abilities = {
-  strength: { id: STR, title: 'Str', longTitle: 'STRENGTH' },
-  dexterity: { id: DEX, title: 'Dex', longTitle: 'DEXTERITY' },
-  constitution: { id: CON, title: 'Con', longTitle: 'CONSTITUTION' },
-  inteligence: { id: INT, title: 'Int', longTitle: 'INTELIGENCE' },
-  wisdom: { id: WIS, title: 'Wis', longTitle: 'WISDOM' },
-  charisma: { id: CHA, title: 'Cha', longTitle: 'CHARISMA' }
+const abilitiesMeta = {
+  strength: { id: STRENGTH, title: 'Str', longTitle: 'STRENGTH' },
+  dexterity: { id: DEXTERITY, title: 'Dex', longTitle: 'DEXTERITY' },
+  constitution: { id: CONSTITUTION, title: 'Con', longTitle: 'CONSTITUTION' },
+  inteligence: { id: INTELIGENCE, title: 'Int', longTitle: 'INTELIGENCE' },
+  wisdom: { id: WISDOM, title: 'Wis', longTitle: 'WISDOM' },
+  charisma: { id: CHARISMA, title: 'Cha', longTitle: 'CHARISMA' }
 }
 
 const modifier = (score) => Math.floor((score - 10)/2)
@@ -24,6 +22,14 @@ export {
   modifier,
   modToString,
   abilitySave,
-  abilities,
-  ids
+  abilitiesMeta
+}
+
+export default {
+  STRENGTH,
+  DEXTERITY,
+  CONSTITUTION,
+  INTELIGENCE,
+  WISDOM,
+  CHARISMA
 }

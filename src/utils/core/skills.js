@@ -1,44 +1,44 @@
-import { ids as abilityIds, abilities, modifier, modToString } from '@/utils/core/abilities'
-import { isProficient, getProficiencyBonus } from '@/utils/core/proficiency'
+import abilities, { abilitiesMeta, modifier, modToString } from '@/utils/core/abilities'
+import { isProficient, getProficiencyBonus } from '@/utils/core/proficiencies'
 
-const ACROBATICS = "acrobatics";
-const ANIMALHANDLING = "animalHandling";
-const ARCANA = "arcana";
-const ATHLETICS = "athletics";
-const DECEPTION = "deception";
-const HISTORY = "history";
-const INSIGHT = "insight";
-const INTIMIDATION = "intimidation";
-const INVESTIGATION = "investigation";
-const MEDICINE = "medicine";
-const NATURE = "nature";
-const PERCEPTION = "perception";
-const PERFORMANCE = "performance";
-const PERSUASION = "persuasion";
-const RELIGION = "religion";
-const SLEIGHTOFHAND = "sleightOfHand";
-const STEALTH = "stealth";
-const SURVIVAL = "survival";
+const ACROBATICS = "Acrobatics";
+const ANIMALHANDLING = "Animal Handling";
+const ARCANA = "Arcana";
+const ATHLETICS = "Athletics";
+const DECEPTION = "Deception";
+const HISTORY = "History";
+const INSIGHT = "Insight";
+const INTIMIDATION = "Intimidation";
+const INVESTIGATION = "Investigation";
+const MEDICINE = "Medicine";
+const NATURE = "Nature";
+const PERCEPTION = "Perception";
+const PERFORMANCE = "Performance";
+const PERSUASION = "Persuasion";
+const RELIGION = "Religion";
+const SLEIGHTOFHAND = "Sleight of Hand";
+const STEALTH = "Stealth";
+const SURVIVAL = "Survival";
 
 const skills = [
-  { id: ACROBATICS, title: "Acrobatics", ability: abilityIds.DEX },
-  { id: ANIMALHANDLING, title: "Animal Handling", ability: abilityIds.WIS },
-  { id: ARCANA, title: "Arcana", ability: abilityIds.INT },
-  { id: ATHLETICS, title: "Athletics", ability: abilityIds.STR },
-  { id: DECEPTION, title: "Deception", ability: abilityIds.CHA },
-  { id: HISTORY, title: "History", ability: abilityIds.INT },
-  { id: INSIGHT, title: "Insight", ability: abilityIds.WIS },
-  { id: INTIMIDATION, title: "Intimidation", ability: abilityIds.CHA },
-  { id: INVESTIGATION, title: "Investigation", ability: abilityIds.INT },
-  { id: MEDICINE, title: "Medicine", ability: abilityIds.WIS },
-  { id: NATURE, title: "Nature", ability: abilityIds.INT },
-  { id: PERCEPTION, title: "Perception", ability: abilityIds.WIS },
-  { id: PERFORMANCE, title: "Performance", ability: abilityIds.CHA },
-  { id: PERSUASION, title: "Persuasion", ability: abilityIds.CHA },
-  { id: RELIGION, title: "Religion", ability: abilityIds.INT },
-  { id: SLEIGHTOFHAND, title: "Sleight of Hand", ability: abilityIds.DEX },
-  { id: STEALTH, title: "Stealth", ability: abilityIds.DEX },
-  { id: SURVIVAL, title: "Survival", ability: abilityIds.WIS }
+  { id: ACROBATICS, title: "Acrobatics", ability: abilities.DEXTERITY },
+  { id: ANIMALHANDLING, title: "Animal Handling", ability: abilities.WISDOM },
+  { id: ARCANA, title: "Arcana", ability: abilities.INTELIGENCE },
+  { id: ATHLETICS, title: "Athletics", ability: abilities.STRENGTH },
+  { id: DECEPTION, title: "Deception", ability: abilities.CHARISMA },
+  { id: HISTORY, title: "History", ability: abilities.INTELIGENCE },
+  { id: INSIGHT, title: "Insight", ability: abilities.WISDOM },
+  { id: INTIMIDATION, title: "Intimidation", ability: abilities.CHARISMA },
+  { id: INVESTIGATION, title: "Investigation", ability: abilities.INTELIGENCE },
+  { id: MEDICINE, title: "Medicine", ability: abilities.WISDOM },
+  { id: NATURE, title: "Nature", ability: abilities.INTELIGENCE },
+  { id: PERCEPTION, title: "Perception", ability: abilities.WISDOM },
+  { id: PERFORMANCE, title: "Performance", ability: abilities.CHARISMA },
+  { id: PERSUASION, title: "Persuasion", ability: abilities.CHARISMA },
+  { id: RELIGION, title: "Religion", ability: abilities.INTELIGENCE },
+  { id: SLEIGHTOFHAND, title: "Sleight of Hand", ability: abilities.DEXTERITY },
+  { id: STEALTH, title: "Stealth", ability: abilities.DEXTERITY },
+  { id: SURVIVAL, title: "Survival", ability: abilities.WISDOM }
 ]
 
 const calculate = ( character ) => {
@@ -47,7 +47,7 @@ const calculate = ( character ) => {
     let value = modifier(character.abilities[skill.ability])
     if(proficient) value += getProficiencyBonus(character)
     return {
-      title: `${skill.title} (${abilities[skill.ability].title})`,
+      title: `${skill.title} (${abilitiesMeta[skill.ability].title})`,
       value: modToString(value),
       proficient
     }
@@ -57,4 +57,25 @@ const calculate = ( character ) => {
 export {
   skills,
   calculate
+}
+
+export default {
+  ACROBATICS,
+  ANIMALHANDLING,
+  ARCANA,
+  ATHLETICS,
+  DECEPTION,
+  HISTORY,
+  INSIGHT,
+  INTIMIDATION,
+  INVESTIGATION,
+  MEDICINE,
+  NATURE,
+  PERCEPTION,
+  PERFORMANCE,
+  PERSUASION,
+  RELIGION,
+  SLEIGHTOFHAND,
+  STEALTH,
+  SURVIVAL,
 }

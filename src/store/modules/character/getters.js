@@ -1,12 +1,12 @@
 import _ from 'lodash'
 import componentGetters from '../component/getters'
-import { abilities, modifier, abilitySave, modToString } from '@/utils/core/abilities'
+import { abilitiesMeta, modifier, abilitySave, modToString } from '@/utils/core/abilities'
 import { calculate as calculateSkills } from '@/utils/core/skills'
 
 export default _.extend({},componentGetters,{
 
   getAbilityScores: state => {
-    return _(abilities).map(ability => ({
+    return _(abilitiesMeta).map(ability => ({
       name: ability.title.toUpperCase(),
       value: state.abilities[ability.id],
       mod: modToString(modifier(state.abilities[ability.id])),
@@ -18,6 +18,16 @@ export default _.extend({},componentGetters,{
 
   getAvatar: state => state.avatar,
 
-  getMeta: state => _.pick(state, ['name','level','class','alignment','race','background'])
+  getMeta: state => _.pick(state, [
+    'name',
+    'level',
+    'classes',
+    'alignment',
+    'race',
+    'background',
+    'avatar'
+  ]),
+
+  getEquipment: state => state.equipment
 
 })
