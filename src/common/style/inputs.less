@@ -1,0 +1,23 @@
+@import "constants.less";
+
+input {
+  color: @clight;
+  background-color: @cdark;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 15px 0;
+  &:-webkit-autofill {
+    box-shadow: 0 0 0 30px @cdark inset;
+    -webkit-text-fill-color: @clight !important;
+  }
+  font-size: 16px;
+  padding: 14px;
+  border: 0;
+  border-bottom: 1px solid @clight;
+  &:focus { outline: none }
+
+  & + input {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+@import "mixins.less";
+@import "font.less";
+@import "constants.less";
+
+.clearFloats() {
+  &::after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+}

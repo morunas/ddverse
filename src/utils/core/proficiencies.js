@@ -1,8 +1,9 @@
 import skills from '@/utils/core/skills'
+import { getLevel } from '@/utils/core/level'
 
 const isProficient = (character,skill) => (!!character.proficiencies[skill])
 
-const getProficiencyBonus = character => Math.floor(character.level/4) + 2
+const getProficiencyBonus = (character) => Math.floor(getLevel(character)/4) + 2
 
 export {
   isProficient,

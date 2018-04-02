@@ -1,0 +1,1 @@
+export const getLevel = character => _.reduce(character.classes,(v,c) => v+c.level,0)

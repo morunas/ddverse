@@ -1,0 +1,22 @@
+.positionMixin(@position:relative, @top: auto, @right: auto, @bottom: auto, @left: auto) {
+  position: @position;
+  top: @top;
+  right: @right;
+  bottom: @bottom;
+  left: @left;
+}
+.fixPosition(@top: auto, @right: auto, @bottom: auto, @left: auto) {
+  .positionMixin(fixed,@top,@right,@bottom,@left);
+}
+.absPosition(@top: auto, @right: auto, @bottom: auto, @left: auto) {
+  .positionMixin(absolute,@top,@right,@bottom,@left);
+}
+.fixPositionFill() {
+  .fixPosition(0,0,0,0);
+}
+.absPositionFill() {
+  .absPosition(0,0,0,0);
+}
+.absPositionBottom() {
+  .absPosition(auto,0,0,0);  
+}

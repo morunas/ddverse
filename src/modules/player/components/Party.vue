@@ -1,5 +1,5 @@
 <template>
-  <div id="party">
+  <div>
     <companions></companions>
   </div>
 </template>
@@ -12,12 +12,5 @@ export default {
 }
 </script>
 
-<style scoped>
-  #party {
-    font-size: 0;
-    padding-left: 200px;
-  }
-  #party > div {
-    display: inline-block;    
-  }
+<style lang="less" scoped>
 </style>

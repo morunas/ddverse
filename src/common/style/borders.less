@@ -1,0 +1,46 @@
+.border(@type, @width: 10px, @padding: 1px, @outset: 0, @fill: transparent, @strokeColor: black, @strokeWidth: 10, @pseudo: 'before', @zIndex: 0) {
+ 
+  & when (@type="razer") {
+    border: @padding solid transparent;
+    border-image-source: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%201902%201902%22%20style%3D%22image-rendering%3AoptimizeQuality%3Bshape-rendering%3AgeometricPrecision%3Btext-rendering%3AgeometricPrecision%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%0D%0A%20%20.str%20%7B%20stroke%3A@{strokeColor}%3B%20stroke-width%3A@{strokeWidth}%20%7D%0D%0A%20%20.fil%20%7B%20fill%3A@{fill}%20%7D%0D%0A%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpolygon%20class%3D%22fil%20str%22%20points%3D%221898%201898%201262%201647%201137%201815%20931%201704%20751%201777%20635%201647%204%201898%20255%201267%20125%201151%20198%20971%2087%20765%20255%20640%204%204%20640%20255%20765%2087%20971%20198%201151%20125%201267%20255%201898%204%201647%20635%201777%20751%201704%20931%201815%201137%201647%201262%20%22%2F%3E%3C%2Fsvg%3E");
+    border-image-slice: 15 15 15 15;
+    border-image-width: @width;
+    border-image-outset: @outset;
+    border-image-repeat: round;
+  }
+
+  & when (@type="grunge") {
+    @pseudoValue: ~'::@{pseudo}';
+    position: relative;
+    &@{pseudoValue} {
+      content: " ";
+      .absPositionFill();
+      z-index: @zIndex;
+      border: @padding solid transparent;
+      border-image-source: url("./assets/border-grunge.png");
+      border-image-slice: 30;
+      border-image-width: @width;
+      border-image-outset: @outset;
+      border-image-repeat: round;
+      filter: hue-rotate(45deg);
+    }
+  }
+
+  & when (@type="popup-scroll") {
+    @pseudoValue: ~'::@{pseudo}';
+    position: relative;
+    &@{pseudoValue} {
+      content: " ";
+      .absPositionFill();
+      z-index: @zIndex;
+      border: @padding solid transparent;
+      border-image-source: url("./assets/popup-scroll.png");
+      border-image-slice: 1200/2 1186/2;
+      border-image-width: 50%;
+      border-image-outset: 0;
+      border-image-repeat: round;
+      filter: hue-rotate(45deg);
+    }
+  }
+
+}

@@ -4,20 +4,52 @@
 		"selected_items":
 		[
 			[
-				"bac",
-				"background-position"
-			],
-			[
 				"mar",
-				"margin-bottom"
+				"margin-top"
 			],
 			[
 				"pa",
-				"padding-top"
+				"padding"
 			],
 			[
 				"over",
-				"overflow-x"
+				"overflow"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"const",
+				"constitution"
+			],
+			[
+				"ab",
+				"abilities"
+			],
+			[
+				"abi",
+				"abilityMod"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"base",
+				"baseWebpackConfig"
+			],
+			[
+				"dev",
+				"devWebpackConfig"
 			],
 			[
 				"min",
@@ -43,86 +75,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/store/modules/race/state.js",
-			"settings":
-			{
-				"buffer_size": 387,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/router/index.js",
-			"settings":
-			{
-				"buffer_size": 345,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/campaign/Campaign.vue",
-			"settings":
-			{
-				"buffer_size": 316,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/campaign/session-dashboard/Dashboard.vue",
-			"settings":
-			{
-				"buffer_size": 745,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/banner/Banner.vue",
-			"settings":
-			{
-				"buffer_size": 1243,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/Home.vue",
-			"settings":
-			{
-				"buffer_size": 456,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/campaign/DM.vue",
-			"settings":
-			{
-				"buffer_size": 305,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/campaign/dm-dashboard/Dashboard.vue",
-			"settings":
-			{
-				"buffer_size": 567,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/store/modules/class/state.js",
-			"settings":
-			{
-				"buffer_size": 397,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -131,7 +83,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 75.0,
+		"height": 138.0,
 		"last_filter": "git status",
 		"selected_items":
 		[
@@ -140,7 +92,51 @@
 				"Git: Status"
 			],
 			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"UP",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"UPPER",
+				"Convert Case: Upper Case"
+			],
+			[
+				"packagers",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: vue-vueic"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -173,108 +169,179 @@
 	"expanded_folders":
 	[
 		"/home/morunix/aaron",
-		"/home/morunix/aaron/server",
+		"/home/morunix/aaron/build",
 		"/home/morunix/aaron/src",
-		"/home/morunix/aaron/static"
+		"/home/morunix/aaron/src/common",
+		"/home/morunix/aaron/src/common/store",
+		"/home/morunix/aaron/src/common/store/modules",
+		"/home/morunix/aaron/src/modules",
+		"/home/morunix/aaron/src/modules/dm",
+		"/home/morunix/aaron/src/modules/home",
+		"/home/morunix/aaron/src/modules/player",
+		"/home/morunix/aaron/src/modules/player/store"
 	],
 	"file_history":
 	[
-		"/home/morunix/aaron/src/components/campaign/banner/Banner.vue",
-		"/home/morunix/aaron/src/components/campaign/session-dashboard/Banner.vue",
-		"/home/morunix/aaron/src/store/modules/class/state.js",
-		"/home/morunix/aaron/src/store/modules/size/state.js",
-		"/home/morunix/aaron/src/store/modules/item/state.js",
-		"/home/morunix/aaron/src/store/modules/weapon/state.js",
-		"/home/morunix/aaron/README.md",
-		"/home/morunix/aaron/src/store/modules/feat/state.js",
-		"/home/morunix/aaron/src/store/modules/campaign/state.js",
-		"/home/morunix/aaron/src/store/modules/spell/state.js",
-		"/home/morunix/aaron/src/store/modules/area/state.js",
-		"/home/morunix/aaron/src/store/modules/locale/state.js",
-		"/home/morunix/aaron/src/store/modules/location/state.js",
-		"/home/morunix/aaron/src/store/modules/area/getters.js",
-		"/home/morunix/aaron/src/store/modules/area/index.js",
-		"/home/morunix/aaron/src/components/campaign/dashboard/Dashboard.vue",
-		"/home/morunix/aaron/src/store/modules/character/getters.js",
-		"/home/morunix/aaron/src/store/modules/character/state.js",
-		"/home/morunix/aaron/src/components/campaign/dashboard/Abilities.vue",
-		"/home/morunix/aaron/src/components/campaign/dashboard/Meta.vue",
-		"/home/morunix/aaron/src/components/campaign/banner/Companion.vue",
-		"/home/morunix/aaron/src/App.vue",
-		"/home/morunix/aaron/src/router/index.js",
-		"/home/morunix/aaron/src/components/campaign/Campaign.vue",
-		"/home/morunix/aaron/src/components/Campaign.vue",
-		"/home/morunix/aaron/src/components/party/Companions.vue",
-		"/home/morunix/aaron/src/components/party/Companion.vue",
-		"/home/morunix/aaron/src/components/campaign/Banner.vue",
-		"/home/morunix/aaron/src/components/campaign/Dashboard.vue",
-		"/home/morunix/aaron/src/store/modules/campaign/getters.js",
-		"/home/morunix/aaron/src/components/party/List.vue",
-		"/home/morunix/aaron/src/components/party/Avatar.vue",
-		"/home/morunix/aaron/src/components/Home.vue",
-		"/home/morunix/aaron/src/components/auth/Login.vue",
-		"/home/morunix/aaron/src/store/modules/component/state.js",
-		"/home/morunix/aaron/src/store/modules/component/getters.js",
-		"/home/morunix/aaron/src/store/modules/campaign/players/state.js",
-		"/home/morunix/aaron/src/store/modules/campaign/players/mutations.js",
+		"/home/morunix/aaron/src/modules/dm/dm.js",
+		"/home/morunix/aaron/src/modules/home/home.js",
+		"/home/morunix/aaron/src/modules/player/player.js",
+		"/home/morunix/aaron/src/common/store/mutations.js",
+		"/home/morunix/aaron/src/common/store/actions.js",
+		"/home/morunix/aaron/src/store/modules/ui/general/state.js",
 		"/home/morunix/aaron/src/store/index.js",
-		"/home/morunix/aaron/src/store/modules/campaign/players/actions.js",
-		"/home/morunix/aaron/src/store/modules/campaign/players/getters.js",
-		"/home/morunix/aaron/src/components/character/Abilities.vue",
-		"/home/morunix/aaron/src/components/Dashboard.vue",
-		"/home/morunix/aaron/src/components/character/Avatar.vue",
-		"/home/morunix/aaron/src/utils/auth/index.js",
-		"/home/morunix/aaron/src/components/character/Party.vue",
-		"/home/morunix/aaron/src/components/character/Character.vue",
-		"/home/morunix/aaron/src/main.js",
-		"/home/morunix/aaron/server/routes.js",
-		"/home/morunix/aaron/server/config/express.js",
-		"/home/morunix/aaron/src/components/dashboards/Dashboard.vue",
-		"/home/morunix/aaron/src/components/PlayerSession.vue",
-		"/home/morunix/aaron/server/app.js",
-		"/home/morunix/aaron/build/webpack.base.conf.js",
-		"/home/morunix/aaron/package.json",
-		"/home/morunix/aaron/test/unit/specs/HelloWorld.spec.js",
-		"/home/morunix/aaron/config/index.js",
-		"/home/morunix/aaron/src/components/auth/Signup.vue",
-		"/home/morunix/aaron/src/components/auth/auth.js",
-		"/home/morunix/aaron/src/utils/esrgth",
-		"/home/morunix/aaron/src/store/modules/weapon/mutations.js",
-		"/home/morunix/aaron/src/store/modules/weapon/getters.js",
-		"/home/morunix/aaron/src/store/modules/character/actions.js",
-		"/home/morunix/aaron/src/store/modules/component/actions.js",
-		"/home/morunix/aaron/src/store/modules/weapon/actions.js",
-		"/home/morunix/aaron/src/store/modules/weapon/character.js",
-		"/home/morunix/aaron/src/store/modules/character/character.js",
-		"/home/morunix/aaron/src/store/modules/character/mutations.js",
-		"/home/morunix/aaron/build/utils.js",
-		"/home/morunix/aaron/build/vue-loader.conf.js",
+		"/home/morunix/aaron/src/modules/player/store/index.js",
+		"/home/morunix/aaron/src/store/dm.js",
+		"/home/morunix/aaron/src/store/modules/ui/player/state.js",
+		"/home/morunix/aaron/src/store/modules/ui/dm/state.js",
+		"/home/morunix/aaron/src/store/modules/ui/player/mutations.js",
+		"/home/morunix/aaron/src/store/modules/ui/common/actions.js",
+		"/home/morunix/aaron/src/store/modules/ui/player/actions.js",
+		"/home/morunix/aaron/src/common/components/Sidebar.vue",
+		"/home/morunix/aaron/src/modules/player/components/Inventory.vue",
+		"/home/morunix/aaron/src/store/modules/ui/state.js",
+		"/home/morunix/aaron/src/store/actions.js",
+		"/home/morunix/aaron/src/store/modules/ui/index.js",
+		"/home/morunix/aaron/src/store/modules/ui/getters.js",
+		"/home/morunix/aaron/src/modules/player/components/CharacterSheet.vue",
+		"/home/morunix/aaron/src/modules/player/components/character-sheet/Abilities.vue",
+		"/home/morunix/aaron/src/store/modules/ui/actions.js",
+		"/home/morunix/aaron/src/modules/player/components/character-sheet/Inventory.vue",
+		"/home/morunix/aaron/src/store/modules/ui/mutations.js",
+		"/home/morunix/aaron/src/store/modules/component/mutations.js",
+		"/home/morunix/aaron/src/modules/player/App.vue",
+		"/home/morunix/aaron/src/modules/player/components/character-sheet/inventory/Sidebar.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Abilities.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Actions.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Avatar.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Equipment.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Inventory.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Skills.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Spells.vue",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Stats.vue",
+		"/home/morunix/aaron/src/store/modules/character/state.js",
+		"/home/morunix/aaron/src/store/modules/character/getters.js",
+		"/home/morunix/aaron/src/utils/core/creatures/index.js",
+		"/home/morunix/aaron/src/utils/core/classes/index.js",
+		"/home/morunix/aaron/src/utils/core/languages/index.js",
+		"/home/morunix/aaron/src/utils/core/races/index.js",
+		"/home/morunix/aaron/src/utils/core/alignments.js",
+		"/home/morunix/aaron/src/utils/core/races/human.js",
+		"/home/morunix/aaron/src/utils/core/races/dwarf.js",
+		"/home/morunix/aaron/src/modules/player/components/widgets/Widget.vue",
+		"/home/morunix/aaron/src/modules/player/components/Party.vue",
+		"/home/morunix/aaron/src/utils/progression/choices.js",
+		"/home/morunix/aaron/src/utils/core/abilities.js",
+		"/home/morunix/aaron/src/utils/core/proficiencies.js",
+		"/home/morunix/aaron/src/utils/core/skills.js",
+		"/home/morunix/aaron/src/utils/core/creatures/types.js",
+		"/home/morunix/aaron/src/utils/core/creatures/sizes.js",
+		"/home/morunix/aaron/src/utils/core/feats/feats.js",
+		"/home/morunix/aaron/src/utils/core/effects.js",
+		"/home/morunix/aaron/src/utils/core/speed.js",
+		"/home/morunix/aaron/src/utils/core/race/dwarf.js",
+		"/home/morunix/aaron/src/utils/core/proficiency.js",
+		"/home/morunix/aaron/src/common/components/layout/Base.vue",
+		"/home/morunix/aaron/src/modules/player/components/Avatar.vue",
+		"/home/morunix/aaron/src/utils/core/constants.js",
+		"/home/morunix/aaron/src/store/modules/abilities/actions.js",
+		"/home/morunix/aaron/src/store/modules/abilities/getters.js",
+		"/home/morunix/aaron/src/common/campaign/session-dashboard/Dashboard.vue",
+		"/home/morunix/aaron/src/common/campaign/session-dashboard/Abilities.vue",
+		"/home/morunix/aaron/src/common/components/layout/Dashboard.vue",
+		"/home/morunix/.config/sublime-text-3/Packages/User/vue-vueic.sublime-snippet",
+		"/home/morunix/.config/sublime-text-3/Packages/User/vue-vuec.sublime-snippet",
+		"/home/morunix/.config/sublime-text-3/Packages/User/vue-comp.sublime-snippet",
+		"/home/morunix/aaron/src/modules/player/components/Player.vue",
+		"/home/morunix/aaron/src/modules/home/App.vue",
 		"/home/morunix/aaron/build/webpack.dev.conf.js",
+		"/home/morunix/aaron/src/common/components/layout/Simple.vue",
+		"/home/morunix/aaron/src/modules/player/components/Banner.vue",
+		"/home/morunix/aaron/src/modules/home/components/auth/Login.vue",
+		"/home/morunix/aaron/template.html",
+		"/home/morunix/aaron/build/get-entry.js",
+		"/home/morunix/aaron/src/common/components/layout/Body.vue",
+		"/home/morunix/aaron/src/common/components/layout/Header.vue",
+		"/home/morunix/aaron/src/common/Home.vue",
+		"/home/morunix/aaron/src/common/components/layout/Page.vue",
+		"/home/morunix/aaron/src/common/components/Layout.vue",
+		"/home/morunix/aaron/src/common/components/Banner.vue",
+		"/home/morunix/aaron/src/common/campaign/DM.vue",
+		"/home/morunix/aaron/src/common/campaign/Campaign.vue",
+		"/home/morunix/aaron/src/utils/auth/index.js",
+		"/home/morunix/aaron/src/modules/dm/App.vue",
+		"/home/morunix/vue-mpa-test/build/dev-server.js",
+		"/home/morunix/aaron/config/index.js",
 		"/home/morunix/aaron/build/webpack.prod.conf.js",
+		"/home/morunix/aaron/package.json",
+		"/home/morunix/aaron/build/dev-server.js",
+		"/home/morunix/aaron/src/common/components/banner/Banner.vue",
+		"/home/morunix/aaron/src/modules/home/index.js",
+		"/home/morunix/aaron/src/common/campaign/banner/Banner.vue",
+		"/home/morunix/vue-mpa-test/src/components/Index.vue",
+		"/home/morunix/vue-mpa-test/build/webpack.dev.conf.js",
+		"/home/morunix/vue-mpa-test/src/modules/index/index.js",
+		"/home/morunix/vue-mpa-test/src/router/index.js",
+		"/home/morunix/vue-mpa-test/build/get-entry.js",
+		"/home/morunix/aaron/build/webpack.base.conf.js",
+		"/home/morunix/vue-mpa-test/build/webpack.base.conf.js",
+		"/home/morunix/vue-mpa-test/build/vue-loader.conf.js",
+		"/home/morunix/aaron/build/vue-loader.conf.js",
+		"/home/morunix/aaron/build/check-versions.js",
+		"/home/morunix/aaron/build/utils.js",
+		"/home/morunix/vue-mpa-test/build/utils.js",
+		"/home/morunix/vue-mpa-test/build/check-versions.js",
+		"/home/morunix/vue-mpa-test/build/build.js",
 		"/home/morunix/aaron/build/build.js",
-		"/home/morunix/aaron/server/components/errors/index.js",
+		"/home/morunix/vue-mpa-test/config/index.js",
 		"/home/morunix/aaron/server/config/socketio.js",
-		"/home/morunix/aaron/node_modules/istanbul/node_modules/async/README.md",
-		"/home/morunix/aaron/src/server/app.js",
-		"/home/morunix/aaron/src/components/DMSession.vue",
-		"/home/morunix/aaron-backend/package.json",
-		"/home/morunix/aaron/src/components/Session.vue",
-		"/home/morunix/aaron/store/modules/component.js",
-		"/home/morunix/aaron/store/modules/character.js",
-		"/home/morunix/aaron/store/mutations.js",
-		"/home/morunix/aaron/store/index.js",
-		"/home/morunix/aaron/store/actions.js",
-		"/home/morunix/aaron/aaron.sublime-project"
+		"/home/morunix/aaron/src/apps/player/router/index.js",
+		"/home/morunix/aaron/src/apps/home/router/index.js",
+		"/home/morunix/aaron/src/apps/dm/index.js",
+		"/home/morunix/aaron/src/apps/dm/router/index.js",
+		"/home/morunix/vue-mpa-test/build/dev-client.js",
+		"/home/morunix/vue-mpa-test/README.md",
+		"/home/morunix/aaron/server/config/express.js",
+		"/home/morunix/aaron/src/apps/common/campaign/banner/Banner.vue",
+		"/home/morunix/aaron/src/apps/common/components/banner/Banner.vue",
+		"/home/morunix/aaron/server/app.js",
+		"/home/morunix/.npm/_logs/2018-03-01T07_29_44_341Z-debug.log",
+		"/home/morunix/.npm/_logs/2018-03-01T07_28_57_972Z-debug.log",
+		"/home/morunix/aaron/server/routes.js",
+		"/home/morunix/aaron/node_modules/webpack/node_modules/uglifyjs-webpack-plugin/README.md",
+		"/home/morunix/aaron/build/webpack.test.conf.js",
+		"/home/morunix/aaron/src/components/campaign/dm-dashboard/Dashboard.vue"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
 		"height": 89.0,
 		"where_history":
 		[
+			"/home/morunix/aaron/",
+			"/home/morunix/aaron/build",
+			"/home/morunix/aaron/",
+			"/home/morunix/aaron/build",
+			"/home/morunix/aaron",
+			"/home/morunix/aaron/build",
+			"/home/morunix/vue-mpa-test",
+			"/home/morunix/aaron/src",
+			"/home/morunix/vue-mpa-test/",
+			"/home/morunix/vue-mpa-test/build",
+			"/home/morunix/vue-mpa-test/src",
+			"/home/morunix/aaron",
+			"/home/morunix/vue-mpa-test",
+			"/home/morunix/vue-mpa-test/",
+			"/home/morunix/vue-mpa-test/build",
+			"/home/morunix/aaron/",
+			"/home/morunix/aaron/config",
+			"/home/morunix/aaron/build",
+			"/home/morunix/aaron",
+			"/home/morunix/aaron/build",
+			"/home/morunix/aaron/config",
+			"/home/morunix/aaron/server",
 			"/home/morunix/aaron",
 			"/home/morunix/aaron/build"
 		]
@@ -284,47 +351,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"abilities",
-			"characters",
-			"3",
-			"2",
+			"store",
+			"uiMutations",
+			"componentMutations",
+			"uiState",
+			"componentState",
+			"SET_DESCRIPTION",
+			"doSomething",
+			"widgets",
 			"widget",
-			"characterslist",
-			"avatar",
-			"characters",
-			"character",
-			"@",
-			"http",
-			"parentGetters",
-			"parentMutations",
-			"parent",
-			"parentActions",
-			"parentMutations",
-			"build",
-			"config.build",
-			"config.dev",
-			"Config.dev",
-			"config.dev",
-			"config.build",
-			"assetsPublicPath",
-			"build",
-			"productionSourceMap",
-			"NODE_ENV",
-			"routes",
-			"backendBase",
-			"secrets",
-			"dev",
-			"dev:",
-			"dev",
-			"src",
-			"module",
-			"module.exports",
-			"express",
-			"main.js",
-			"license",
+			"@common",
+			"@/",
+			"import widget from './Widget'",
+			"left: 0;",
+			"= '",
+			"  ",
+			": '",
+			"'\n",
+			"const ",
+			"COMMON",
+			"STRENGTH",
+			"const ",
+			": ",
+			"Dwarf:",
+			"Dwarf",
+			"h1",
+			"equipmentWidget",
+			"ability.",
+			"abilities",
+			"skills",
+			"abilities",
+			".CHA",
+			".STR",
+			".INT",
+			"INT",
+			"WIS",
+			"DEX",
+			"abilityIds",
+			"abilities",
+			"ids",
+			"const ",
+			"          '",
+			": ",
+			"= \"",
+			": \"",
+			" = ",
+			"const",
+			"proficiency",
+			"const ",
+			"DWARVEN.",
+			"dwarven",
+			"feats.",
+			"alignments",
+			"sizes",
+			"types",
+			"''",
+			": ",
+			"good",
+			"</option>",
+			"id: ",
+			"= '",
+			"  ",
+			": ",
+			"</option>",
+			"alignments",
+			" '",
+			"long",
+			"long: '",
+			"title: '",
+			": STR: ",
+			"const ",
+			"abilities",
+			"isProficient",
+			"ability",
+			"const ",
+			",",
+			"id: \"",
+			", title",
+			", id: \"",
+			" ability",
 			"name",
-			"lint",
-			"aaron"
+			"ability: '",
+			"name",
+			" }",
+			" },",
+			"modStr",
+			"modString",
+			"modStr",
+			"const ",
+			",",
+			"id: '",
+			"\n      ",
+			"120",
+			"5px",
+			"table",
+			"is",
+			"presentation",
+			"',",
+			"div",
+			"200px",
+			"10",
+			"-mini",
+			">",
+			"components",
+			"$3",
+			"div",
+			"components/",
+			",",
+			"import ",
+			"    ",
+			"import ",
+			"    <",
+			"skills",
+			"character",
+			"player",
+			"layout",
+			"party",
+			"layout",
+			"div",
+			"HtmlWebpackPlugin",
+			"favicon",
+			"htmlWebpackPlugin",
+			"\"/img/icon-196x196.png\"",
+			"page",
+			"banner",
+			".banner",
+			"#banner",
+			"login",
+			"player"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -332,6 +486,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"@/common",
+			"import widget from '@common/components/Widget'",
+			"@/assets/dungeon-floor-background.png"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -342,279 +499,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/store/modules/race/state.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 387,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								387,
-								387
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/router/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								318,
-								318
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/components/campaign/Campaign.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 316,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								159,
-								168
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/components/campaign/session-dashboard/Dashboard.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 745,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								736,
-								736
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/components/banner/Banner.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								572,
-								572
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/components/Home.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 456,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								192,
-								192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/components/campaign/DM.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 305,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								183,
-								183
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/components/campaign/dm-dashboard/Dashboard.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 567,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								209
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 8,
-					"file": "src/store/modules/class/state.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 397,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								397,
-								397
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -646,7 +537,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.507611241218,
 			1.0
 		],
 		"rows":
@@ -673,6 +564,46 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"abilities",
+				"src/modules/player/components/character-sheet/Abilities.vue"
+			],
+			[
+				"mutations",
+				"src/store/modules/component/mutations.js"
+			],
+			[
+				"chara",
+				"src/store/modules/character/state.js"
+			],
+			[
+				"abilit",
+				"src/utils/core/abilities.js"
+			],
+			[
+				"charactergett",
+				"src/store/modules/character/getters.js"
+			],
+			[
+				"charac",
+				"src/store/modules/character/state.js"
+			],
+			[
+				"character",
+				"src/store/modules/character/state.js"
+			],
+			[
+				"skillsjs",
+				"src/utils/core/skills.js"
+			],
+			[
+				"skillsvue",
+				"src/modules/player/components/widgets/Skills.vue"
+			],
+			[
+				"base",
+				"src/common/components/layout/Base.vue"
+			],
 			[
 				"characterstate",
 				"src/store/modules/character/state.js"

@@ -1,0 +1,53 @@
+@import "constants.less";
+@import "font.less";
+
+.ddv-button {
+
+  outline: none;
+  border: none;
+  transition: color .2s ease, background .2s ease;
+  background-color: @clight;
+  color: @cdark;
+  padding: 12px 30px;
+  font-size: 22px;
+  font-family: 'vecna';
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: @cdark2;
+    color: @clight;
+  }
+
+  & + .ddv-button {
+    margin-left: 10px;
+  }
+
+  &.inverted {
+    background-color: transparent;
+    color: @clight;
+    &:hover {
+      background-color: @cdark2;
+      color: @clight;
+    }
+  }
+
+  &.dark {
+    background-color: @cdark2;
+    color: @clight;
+    &:hover {
+      background-color: @clight2;
+      color: @clight;
+    }
+  }
+
+  &.default-transparent {
+    background-color: transparent;
+    color: @cdark;
+    &:hover {
+      background-color: transparent;
+      color: @clight2;
+    } 
+  }
+}

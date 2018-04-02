@@ -16,12 +16,14 @@ const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
 const devWebpackConfig = merge(baseWebpackConfig, {
+
   module: {
     rules: utils.styleLoaders({
       sourceMap: config.frontend.cssSourceMap,
       usePostCSS: true
     })
   },
+
   // cheap-module-eval-source-map is faster for development
   devtool: config.frontend.devtool,
 
@@ -31,8 +33,10 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     historyApiFallback: {
       rewrites: _.map({
         '/': 'home',
+        '/register': 'home',
         '/dashboard': 'player',
         '/dm-screen': 'dm',
+        '/ui': 'ui',
       },function(module,route){ return {
         from: new RegExp('^'+route+'$',''),
         to: 'http://localhost:8080/modules/' + module + '.html'

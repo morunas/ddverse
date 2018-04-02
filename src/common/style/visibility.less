@@ -1,0 +1,5 @@
+.visibilityMixin(@onOff: hidden, @duration: .2s) {
+  visibility: @onOff;
+  & when (@onOff=hidden) { transition: visibility 0s ease @duration }
+  & when not(@onOff=hidden) { transition: visibility 0s ease 0s }
+}

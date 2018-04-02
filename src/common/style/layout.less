@@ -1,0 +1,38 @@
+@import 'utils.less';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  &.padded {
+    .row + .row { margin-top: 18px }
+    .column + .column { margin-left: 24px }
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  &.gold-left {
+    & > .column:nth-child(1) { width: 61.8% }
+    & > .column:nth-child(2) { flex: 1 }
+  }
+  &.gold-right {
+    & > .column:nth-child(1) { width: 38.2% }
+    & > .column:nth-child(2) { flex: 1 }
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container,
+.row,
+.column {
+  &.hcenter {
+    text-align: center;
+    align-items: center;
+  }
+  &.vcenter {
+    justify-content: center;
+  }
+}

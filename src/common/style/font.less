@@ -1,0 +1,17 @@
+.fontSize(@size) {
+  @sizeRem: @size/10;
+  @px: ~'@{size}px';
+  @rem: ~'@{sizeRem}rem';
+  font-size: @px;
+  font-size: @rem;
+}
+
+.font(@size) {
+  @S: 14;
+  @M: 16;
+  @L: 20;
+  @h1: 32;
+  @h2: 30;
+  @p: 16;
+  .fontSize(@@size);
+}

@@ -1,29 +1,35 @@
 <template>
-  <div id="character-sheet">
-    <div class="column ">
-      <statsWidget></statsWidget>
-      <equipmentWidget></equipmentWidget>
-      <actionsWidget></actionsWidget>
-      <spellsWidget></spellsWidget>
+  <div id="character-sheet" class="parchment container">
+    <div class="row">
+      <div class="column">
+        <avatarWidget></avatarWidget>
+      </div>
     </div>
-    <div class="column short">
-      <avatarWidget></avatarWidget>
-      <abilitiesWidget></abilitiesWidget>
-      <skillsWidget></skillsWidget>
-      <inventoryWidget></inventoryWidget>
+    <div class="row gold-left">
+      <div class="column">
+        <statsWidget></statsWidget>
+        <equipmentWidget></equipmentWidget>
+        <actionsWidget></actionsWidget>
+        <spellsWidget></spellsWidget>
+      </div>
+      <div class="column">
+        <abilitiesWidget></abilitiesWidget>
+        <skillsWidget></skillsWidget>
+        <inventoryWidget></inventoryWidget>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import abilitiesWidget from './widgets/Abilities'
-import skillsWidget from './widgets/Skills'
-import inventoryWidget from './widgets/Inventory'
-import statsWidget from './widgets/Stats'
-import equipmentWidget from './widgets/Equipment'
-import actionsWidget from './widgets/Actions'
-import spellsWidget from './widgets/Spells'
-import avatarWidget from './widgets/Avatar'
+import abilitiesWidget from './character-sheet/Abilities'
+import skillsWidget from './character-sheet/Skills'
+import inventoryWidget from './character-sheet/Inventory'
+import statsWidget from './character-sheet/Stats'
+import equipmentWidget from './character-sheet/Equipment'
+import actionsWidget from './character-sheet/Actions'
+import spellsWidget from './character-sheet/Spells'
+import avatarWidget from './character-sheet/Avatar'
 export default {
   name: 'character-sheet',
   data () {
@@ -44,26 +50,16 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+@import "../../../common/style/mixins.less";
+
 #character-sheet {
   position: relative;
-  min-height: 80vh;
-  background-color: rgb(48, 49, 70);
-  width: 530px;
-  box-shadow: 1px -1px 6px -1px rgba(0,0,0,.6);
+  z-index: 2;
   font-size: 0;
+  width: 100%;
 }
 #character-sheet, .column {
   padding: 5px;
-}
-.column {
-  width: calc(100% - 210px);
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-}
-.column.short {
-  width: 210px;
-  top: -170px;
 }
 </style>
