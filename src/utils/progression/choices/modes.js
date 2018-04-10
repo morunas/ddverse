@@ -1,0 +1,7 @@
+export const TEXT = 'text'
+export const PARAGRAPH = 'paragraph'
+export const NUMBER = 'number'
+export const SELECT = 'select'
+export const MULTIPLE_CHOICE = 'multipleChoice'
+export const TABLE = 'table'
+export const COMPOSE = 'compose'

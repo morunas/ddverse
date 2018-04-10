@@ -1,3 +1,4 @@
 export default {
-  DARKVISION: 'Darkvision'
+  DARKVISION: 'Darkvision',
+  RESISTANCE: 'Resistance'
 }

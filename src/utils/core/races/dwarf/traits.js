@@ -3,7 +3,7 @@ import { types, sizes } from '@/utils/core/creatures'
 import abilities from '@/utils/core/abilities'
 import feats from '@/utils/core/feats'
 
-export default dward = {
+export default {
   description: `
     Your dwarf character has an assortment of inborn Abilities,
     part and parcel of dwarven nature.
@@ -65,11 +65,11 @@ export default dward = {
     },
     feats: {
       value: [
-        feats.DARKVISION,
+        feats.DWARVEN_DARKVISION,
         feats.DWARVEN_RESILIENCE,
         feats.DWARVEN_COMBAT_TRAINING,
-        feats.TOOL_PROFICIENCY,
-        feats.STONECUNNING
+        feats.DWARVEN_TOOL_PROFICIENCY,
+        feats.DWARVEN_STONECUNNING
       ]
     },
     languages: {

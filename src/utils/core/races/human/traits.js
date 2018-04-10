@@ -4,7 +4,7 @@ import abilities from '@/utils/core/abilities'
 import feats from '@/utils/core/feats'
 import choices from '@/utils/progression/choices'
 
-export default dward = {
+export default {
   description: `
     It's hard to make generalizations about humans,
     but your human character has these traits.
@@ -71,7 +71,7 @@ export default dward = {
     },
     languages: {
       value: [
-        languages.COMMON
+        languages.COMMONå
       ],
       choices: [{ type: choices.LANGUAGE }],
       description: `
@@ -85,24 +85,5 @@ export default dward = {
 
       `
     },
-  },
-  subraces: {
-    hilldwarf: {
-      title: 'Hill Dwarf',
-      description: ``,
-      traits: {
-        description:`
-          As a hill dwarf, you have keen senses, deep intuition,
-          and remarkable resilience.
-        `,
-        abilities: {
-          bonus: { ability: abilities.WIS, value: 1 },
-          description: `Your Wisdom score increases by 1.`
-        },
-        feats: {
-          value: [ feats.DWARVEN_TOUGHNESS ]
-        }
-      }
-    }
   }
 }
